@@ -1,0 +1,16 @@
+$kind: http-request
+url: localhost:3000/products/upload/6aa268000356e262a9a6911b
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "laptop",
+        "price": 45000,
+        "description": "hp flex",
+        "category": "Gadgets",
+        "stock": 25,
+        "image": "image",
+        "quantity": 25
+    }
+order: 1000

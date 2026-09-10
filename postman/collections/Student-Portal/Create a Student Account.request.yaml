@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/students
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Ahile FrankieCode\",\r
+
+    \  \"regNo\": \"REG/1982/3636\",\r
+
+    \  \"email\": \"frankiecodesolutions@gmail.com\"\r
+
+    }"
+order: 1000

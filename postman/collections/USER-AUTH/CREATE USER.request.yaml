@@ -1,0 +1,17 @@
+$kind: http-request
+url: localhost:3000/users/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"Ahile Frankie\",\r
+
+    \    \"email\" : \"frankiecodesolutions@gmail.com\",\r
+
+    \    \"password\" : \"987654321\"\r
+
+    \r
+
+    }"
+order: 2000

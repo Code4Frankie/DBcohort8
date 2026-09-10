@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/students/6a9addd6d0f302a1941315d3
+method: PATCH
+order: 2000

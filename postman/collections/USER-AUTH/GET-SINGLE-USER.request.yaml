@@ -1,0 +1,4 @@
+$kind: http-request
+url: localhost:3000/users/users/6a9aa23a18dbd2b9da7ffdee
+method: GET
+order: 4000
