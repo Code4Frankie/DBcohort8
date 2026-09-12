@@ -1,0 +1,4 @@
+$kind: http-request
+url: localhost:3000/products/upload/6aa268000356e262a9a6911b
+method: POST
+order: 2490753748042621

@@ -8,5 +8,7 @@ userRoute.get('/', getAllUsers);
 userRoute.get('/:id', getSingleUser);
 userRoute.patch('/:id', updateUser);
 userRoute.delete('/:id', deleteUser);
+userRoute.post('/login', loginUser)
+;
 
 module.exports = userRoute;
